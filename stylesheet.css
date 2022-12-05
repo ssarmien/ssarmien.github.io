@@ -6,8 +6,16 @@ red-orange: #FF715B
 lavender: #D5B8FF
 purple: #3D049A
 */
-nav a{
+.main-navigation{
     font-family: 'Spline Sans Mono', monospace;
+    background-color: 3D049A;
+    color: white;
+}
+.sub-navigation{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: smaller;
+    background-color: white;
+    color: 3D049A;
 }
 h1{
     font-family: 'Major Mono Display', monospace;
