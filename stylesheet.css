@@ -8,14 +8,14 @@ purple: #3D049A
 */
 .main-navigation{
     font-family: 'Spline Sans Mono', monospace;
-    background-color: 3D049A;
-    color: white;
+    background-color: #DBFA74;
+    color: black;
 }
 .sub-navigation{
     font-family: 'Spline Sans Mono', monospace;
     font-size: smaller;
-    background-color: white;
-    color: 3D049A;
+    background-color: #FF715B;
+    color: black;
 }
 h1{
     font-family: 'Major Mono Display', monospace;
