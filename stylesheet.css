@@ -1,0 +1,20 @@
+/*
+HEX
+black: #000000
+yellow-green: #DBFA74
+red-orange: #FF715B
+lavender: #D5B8FF
+purple: #3D049A
+*/
+
+h1{
+    font-family: 'Major Mono Display', monospace;
+    background-color: black;
+    color: #DBFA74;
+}
+h2, h3{
+    font-family: 'Spline Sans Mono', monospace;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
