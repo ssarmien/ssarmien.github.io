@@ -6,7 +6,9 @@ red-orange: #FF715B
 lavender: #D5B8FF
 purple: #3D049A
 */
-
+nav.a{
+    font-family: 'Spline Sans Mono', monospace;
+}
 h1{
     font-family: 'Major Mono Display', monospace;
     background-color: black;
