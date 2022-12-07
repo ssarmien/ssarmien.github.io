@@ -83,6 +83,9 @@
         <div class="signature">
             <p>-Sara Sarmiento</p>
         </div>
+        <footer>
+            <p class="copyright">&#169; Sara Sarmiento, 2022</p>
+        </footer>
 
     </body>
 </html>
