@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AI Art Generators</title>
+        <link rel= "stylesheet" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans:wght@300;400;500&family=Spline+Sans+Mono:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Exploring the World of AI Art Generators</h1>
+            <nav class='main-navigation'>
+                <a href="">About AI Art Generators</a>
+                <a href="">Advantages and Conflicts</a>
+                    <nav class='sub-navigation'>
+                        <a href="">Advantages for Artists</a>
+                        <a href="">Advantages for Companies</a>
+                        <a href="">Conflicts of Interest</a>
+                    </nav>
+                <a href="">Authorship and Copyright</a>
+                    <nav class='sub-navigation'>
+                        <a href="legal_precedents.html">Legal Precedents</a>
+                        <a href="fair_transformative_use.html">Fair and Transformative Use</a>
+                        <a href="law_evolve.html">How might the law evolve?</a>
+                        <a href="">Recent Controversies</a>
+                    </nav>
+                <a href="">Examples & Comparisons</a>
+                    <nav class='sub-navigation'>
+                        <a href="">Sara</a>
+                        <a href="mary.html">Mary</a>
+                        <a href="">Anjali</a>
+                    </nav>
+            </nav>
+        </header>
+        <h2>About AI Art Generators</h2>
+        <p>
+            AI art can refer to several different things. 
+            Some programs will remix images the user feeds 
+            the program with other artwork—the currently trending
+             Lensa app does this to create fantasy avatars—or automatically 
+             make complex edits to an image with a simple slider—lens correction, 
+             bigger eyes, smaller nose, etc. This site is mostly concerned 
+             with the kind of AI that uses a text prompt to generate 
+             images from scratch, the model followed by popular programs 
+             such as DALL-E, Midjourney or Stable Diffusion.
+        </p>
+        <p>
+            In the past, AI art generators would take a set of images and 
+            feed them to an algorithm to produce a new image in the style 
+            of the dataset it was fed. The newest generation of AI art generators
+             marry this technology with algorithms that analyze natural language.
+              Images with accompanying text are scraped from across the internet,
+               the algorithm links text with images and uses pattern recognition
+                to build image concepts associated with particular words—a sense 
+                of “blue-ness” associated with “blue”, or “square-ness” associated 
+                with “square”. When you enter a text prompt, the algorithm is 
+                connecting your prompt with these concepts to build a new image.
+                 The algorithm is not actually taking little bits of other 
+                 pictures and pasting them together like a collage, it is building
+                  a new image with the qualities of the image concepts it has
+                   linked to certain text.
+        </p>
+        <p>
+            The datasets required to train an AI to build these image concepts 
+            are enormous—in the range of billions of images. Curating datasets 
+            of this size is difficult and time consuming and many companies 
+            have chosen to scrape images indiscriminately off the internet to 
+            build their datasets. However, concerns about how these indiscriminate 
+            datasets may be perpetuating bias has led some companies to start 
+            curating their images to ensure more equitable representation and 
+            counteract certain associations, like connecting certain racial 
+            groups with crime, or beauty with a western european ideal. In the 
+            near future, algorithms may be able to function with smaller 
+            datasets, which would allow for greater curation of images, though 
+            this may also make it easier to omit large categories of images. 
+            Many artists are also concerned by this indiscriminate scraping as 
+            they feel that they have not consented to the use of their images in 
+            these ways. Evidence of this kind of scraping can be found in 
+            visual artifacts in the AI generated images, fake signatures or watermarks.
+        </p>
+        <div class="signature">
+            <p>-Sara Sarmiento</p>
+        </div>
+
+    </body>
+</html>
