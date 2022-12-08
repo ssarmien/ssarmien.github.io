@@ -405,3 +405,13 @@ img{
     z-index: 2;
     position: absolute;
 }
+.copyright-dark{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: smaller;
+    color: #DBFA74;
+}
+.copyright-light{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: smaller;
+    color: #3D049A;
+}
