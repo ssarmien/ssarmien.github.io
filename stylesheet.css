@@ -48,16 +48,8 @@ h1{
     }
 }
 
-nav a{
-    font-family: 'Spline Sans Mono', monospace;
-}
-
 .black_bg{
     background-color: black;
-}
-
-.black_bg p{
-    color: white;
 }
 
 .gradient_bg{
@@ -67,10 +59,13 @@ nav a{
 .gradient_bg section{
     background: transparent;
 }
+
 /* The navigation menu */
 .navbar {
     overflow: hidden;
     background-color: #000000;
+    margin-left: 12%;
+    margin-right: 12%;
   }
   
   /* Navigation links */
@@ -81,6 +76,7 @@ nav a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Spline Sans Mono', monospace;
   }
   
   /* The subnavigation menu */
@@ -94,16 +90,17 @@ nav a{
     font-size: 16px;
     border: none;
     outline: none;
-    color: #000000;
+    color: #DBFA74;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: 'Spline Sans Mono', monospace;
     margin: 0;
   }
   
   /* Add a red background color to navigation links on hover */
   .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: #FF715B;
+    background-color: #DBFA74;
+    color: black;
   }
   
   /* Style the subnav content - positioned absolute */
@@ -111,7 +108,7 @@ nav a{
     display: none;
     position: absolute;
     left: 0;
-    background-color: #FF715B;
+    background-color: #DBFA74;
     width: 100%;
     z-index: 1;
   }
@@ -119,13 +116,13 @@ nav a{
   /* Style the subnav links */
   .subnav-content a {
     float: left;
-    color: white;
+    color: black;
     text-decoration: none;
   }
   
   /* Add a grey background color on hover */
   .subnav-content a:hover {
-    background-color: #eee;
+    background-color: #FF715B;
     color:black;
   }
   
@@ -133,8 +130,6 @@ nav a{
   .subnav:hover .subnav-content {
     display: block;
   }
-
-
 
 /* CONTENT FOR MAIN PAGES */
 .main_content{
@@ -405,10 +400,16 @@ img{
     z-index: 2;
     position: absolute;
 }
+
+/* FOOTER STYLES */
+
 .copyright-dark{
     font-family: 'Spline Sans Mono', monospace;
     font-size: smaller;
     color: #DBFA74;
+    margin-top: 35%;
+    margin-left: 8%;
+    position: absolute;
 }
 .copyright-light{
     font-family: 'Spline Sans Mono', monospace;
