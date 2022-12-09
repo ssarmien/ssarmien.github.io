@@ -151,6 +151,13 @@ h1{
     color:white;
 }
 
+/* SARA: CONTENT FOR MAIN PAGES */
+main{
+    margin-top: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 h2{
     font-family: 'Spline Sans Mono', monospace;
     color:#3D049A;
