@@ -138,6 +138,8 @@ h1{
     padding-left: 25%;
     padding-right: 25%;
     background-color: white;
+    padding-bottom: 1em;
+
 }
 
 .main_content a{
@@ -150,14 +152,6 @@ h1{
 
 .main_content a:hover{
     color:white;
-}
-
-/* SARA: CONTENT FOR MAIN PAGES */
-main{
-    margin-top: 1em;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 1em;
 }
 
 h2{
