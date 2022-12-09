@@ -418,4 +418,8 @@ img{
     font-family: 'Spline Sans Mono', monospace;
     font-size: smaller;
     color: #3D049A;
+    margin-top: 35%;
+    margin-left: 8%;
+    position: absolute;
+
 }
