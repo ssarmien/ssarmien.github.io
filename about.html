@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 
-<!--
-    media
--->
-
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,53 +10,67 @@
         <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans:wght@300;400;500&family=Spline+Sans+Mono:wght@300;400&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="black_bg">
         <header>
             <h1 class="gradient"><a href=index.html>Exploring the World of AI Art Generators</a></h1>
-            <nav id='main-navigation'>
-                <a href="">About AI Art Generators</a>
-                <a href="">Advantages and Conflicts</a>
-                    <nav id='sub-navigation'>
-                        <a href="">Advantages for Artists</a>
-                        <a href="">Advantages for Companies</a>
-                        <a href="">Conflicts of Interest</a>
-                    </nav>
-                <a href="">Authorship and Copyright</a>
-                    <nav id='sub-navigation'>
-                        <a href="legal_precedents.html">Legal Precedents</a>
-                        <a href="fair_transformative_use.html">Fair and Transformative Use</a>
-                        <a href="law_evolve.html">How might the law evolve?</a>
-                        <a href="">Recent Controversies</a>
-                    </nav>
-                <a href="">Examples & Comparisons</a>
-                    <nav id='sub-navigation'>
-                        <a href="">Sara</a>
-                        <a href="mary.html">Mary</a>
-                        <a href="">Anjali</a>
-                    </nav>
-            </nav>
+            <div class="navbar">
+                <a href="intro-to-ai-art.html">Intro to AI Art</a>
+                <div class="subnav">
+                  <button class="subnavbtn">Advantages and Concerns<i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="">Advantages for Artists</a>
+                    <a href="">Advantages for Companies</a>
+                    <a href="">Conflicts of Interest</a>
+                    <a href="artists-perspectives.html">Artists' Perspectives</a>
+                  </div>
+                </div>
+                <div class="subnav">
+                  <button class="subnavbtn">Legal <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="legal-precedents.html">Legal Precedents</a>
+                    <a href="fair-transformative-use.html">Fair and Transformative Use</a>
+                    <a href="">Recent Controversies</a>
+                    <a href="law-evolve.html">Evolving Law</a>
+                  </div>
+                </div>
+                <div class="subnav">
+                  <button class="subnavbtn">Case Studies<i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="case-study-sara.html">Sara</a>
+                    <a href="mary.html">Mary</a>
+                    <a href="">Anjali</a>
+                  </div>
+                </div>
+                <a href="about.html">About</a>
+                <a href="">References</a>
+              </div>
+             </div>
         </header>
 
         <section>
-            <h2>About the Authors</h2>
+            <p class="p_about">about the project/conclusions</p>
+            <h2 class="gradient h2_about">About the Authors</h2>
             <div class="gallery_1">
                 <div class="about_left">
-                    <img src="9.png" alt="">
-                    <h3>Sara</h3>
-                    <p>about lorem ipsum about lorem ipsum about lorem ipsum</p>
+                    <img src="sara-self-portrait-dall-e.png" alt="AI-generated portrait">
+                    <h3 class="h3_about_yellow">Sara</h3>
+                    <p class="p_about_bio">about lorem ipsum about lorem ipsum about lorem ipsum</p>
                 </div>
                 <div class="about_center">
-                    <img src="9.png" alt="">
-                    <h3>Mary</h3>
-                    <p>about lorem ipsum about lorem ipsum about lorem ipsum<</p>
+                    <img src="mary_dalle_11.png" alt="AI-generated portrait">
+                    <h3 class="h3_about_red">Mary</h3>
+                    <p class="p_about_bio">about lorem ipsum about lorem ipsum about lorem ipsum<</p>
                 </div>
                 <div class="about_right">
-                    <img src="9.png" alt="">
-                    <h3>Anjali</h3>
-                    <p>about lorem ipsum about lorem ipsum about lorem ipsum</p>
+                    <img src="" alt="AI-generated portrait">
+                    <h3 class="h3_about_purple">Anjali</h3>
+                    <p class="p_about_bio">about lorem ipsum about lorem ipsum about lorem ipsum</p>
                 </div>
             </div>
         </section>
 
+        <footer>
+            <p class="copyright-dark">&#169; Mary Haws, Anjali Rao & Sara Sarmiento, 2022</p>
+        </footer>
     </body>
 </html>
