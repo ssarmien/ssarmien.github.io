@@ -64,15 +64,14 @@ h1{
 .navbar {
     overflow: hidden;
     background-color: #000000;
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-bottom: 55px;
+    margin-left: 16%;
+    margin-right: 16%;
   }
   
   /* Navigation links */
   .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 1.2vw;
     color: #DBFA74;
     text-align: center;
     padding: 14px 16px;
@@ -88,7 +87,7 @@ h1{
   
   /* Subnav button */
   .subnav .subnavbtn {
-    font-size: 16px;
+    font-size: 1.2vw;
     border: none;
     outline: none;
     color: #DBFA74;
@@ -119,6 +118,7 @@ h1{
     float: left;
     color: black;
     text-decoration: none;
+    font-size: 1.2vw;
   }
   
   /* Add a grey background color on hover */
@@ -135,11 +135,10 @@ h1{
 /* CONTENT FOR MAIN PAGES */
 .main_content{
     margin-top: 1em;
+    margin-bottom: 0;
     padding-left: 25%;
     padding-right: 25%;
     background-color: white;
-    padding-bottom: 1em;
-
 }
 
 .main_content a{
@@ -155,13 +154,33 @@ h1{
 }
 
 h2{
+    margin-top: 12%;
     font-family: 'Spline Sans Mono', monospace;
     color:#3D049A;
+}
+
+.h2_about{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 0;
 }
 
 h3{
     font-family: 'Spline Sans Mono', monospace;
     color:#3D049A;
+}
+
+.h3_about_red{
+    color: #FF715B;
+}
+
+.h3_about_purple{
+    color: #D5B8FF;
+}
+
+.h3_about_yellow{
+    color: #DBFA74;
 }
 
 p{
@@ -170,6 +189,28 @@ p{
     letter-spacing: .1em;
     color: black;
     padding-bottom: 3%;
+    text-align: justify;
+}
+
+.p_about{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    letter-spacing: .1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    margin-top: 8%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.p_about_bio{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    letter-spacing: .1em;
+    color: white;
+    padding-bottom: 2%;
     text-align: justify;
 }
 
@@ -261,6 +302,7 @@ img{
     z-index: 1;
     position: absolute;
     font-style: italic;
+    font-size: 1.5vw;
 }
 
 .gallery_left{
@@ -297,6 +339,7 @@ img{
     margin-top: 10%;
     position: absolute;
     font-style: italic;
+    font-size: 1.5vw;
 }
 
 .gallery_center_box{
@@ -352,6 +395,7 @@ img{
     z-index: 1;
     position: absolute;
     font-style: italic;
+    font-size: 1.5vw;
 }
 
 .gallery_right_box{
@@ -384,6 +428,10 @@ img{
     position: absolute;
 }
 
+.about_right img{
+    border: 5px solid #D5B8FF;
+}
+
 .about_left{
     margin-right: 65%;
     margin-left: 10%;
@@ -392,6 +440,10 @@ img{
     width: 25%;
     z-index: 2;
     position: absolute;
+}
+
+.about_left img{
+    border: 5px solid #DBFA74;
 }
 
 .about_center{
@@ -404,11 +456,15 @@ img{
     position: absolute;
 }
 
+.about_center img{
+    border: 5px solid #FF715B;
+}
+
 /* FOOTER STYLES */
 
 .copyright-dark{
     font-family: 'Spline Sans Mono', monospace;
-    font-size: smaller;
+    font-size: .8em;
     color: #DBFA74;
     margin-top: 35%;
     margin-left: 8%;
@@ -416,8 +472,8 @@ img{
 }
 .copyright-light{
     font-family: 'Spline Sans Mono', monospace;
-    font-size: smaller;
+    font-size: .8em;
     color: #3D049A;
-    padding-top: 35%;
-    padding-left: 8%;
+    margin-top: 5%;
+    margin-left: 8%;
 }
