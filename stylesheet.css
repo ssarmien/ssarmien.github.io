@@ -460,6 +460,13 @@ img{
     border: 5px solid #FF715B;
 }
 
+/* SIGNATURE: applies to <p> element*/
+.signature {
+    font-family: 'Spline Sans Mono', monospace;
+    color:#3D049A;
+    font-size: smaller;
+}
+
 /* FOOTER STYLES */
 
 .copyright-dark{
