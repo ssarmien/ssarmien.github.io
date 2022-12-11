@@ -209,8 +209,13 @@ p{
     font-size: 1em;
     letter-spacing: .1em;
     color: white;
-    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: justify;
+    display: block;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 ol, ul{
@@ -439,7 +444,6 @@ img{
     margin-bottom: 0;
     margin-top: 5%;
     width: 25%;
-    z-index: 2;
     position: absolute;
 }
 
@@ -453,7 +457,6 @@ img{
     margin-bottom: 0;
     margin-top: 5%;
     width: 25%;
-    z-index: 2;
     position: absolute;
 }
 
@@ -467,7 +470,6 @@ img{
     margin-bottom: 0;
     margin-top: 5%;
     width: 25%;
-    z-index: 2;
     position: absolute;
 }
 
